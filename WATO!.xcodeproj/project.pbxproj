@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F0E581FD900419BD80DE35B /* Pods_WATO_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76728EF64C718F6F3BF8A8E /* Pods_WATO_.framework */; };
+		EE211A811E61C37D0028E253 /* BuddyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE211A801E61C37D0028E253 /* BuddyViewController.swift */; };
+		EE30CCEE1E62537500A8F53B /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CCED1E62537500A8F53B /* PlacesViewController.swift */; };
+		EE30CCF01E6258CC00A8F53B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CCEF1E6258CC00A8F53B /* IntroViewController.swift */; };
+		EE30CCF41E62761500A8F53B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CCF31E62761500A8F53B /* ProfileViewController.swift */; };
+		EE30CCF61E6277CD00A8F53B /* pwrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30CCF51E6277CD00A8F53B /* pwrViewController.swift */; };
 		EE3B6DC01E61427D00A6D887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B6DBF1E61427D00A6D887 /* AppDelegate.swift */; };
-		EE3B6DC21E61427D00A6D887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B6DC11E61427D00A6D887 /* ViewController.swift */; };
+		EE3B6DC21E61427D00A6D887 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B6DC11E61427D00A6D887 /* LoginViewController.swift */; };
 		EE3B6DC51E61427D00A6D887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3B6DC31E61427D00A6D887 /* Main.storyboard */; };
 		EE3B6DC71E61427D00A6D887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3B6DC61E61427D00A6D887 /* Assets.xcassets */; };
 		EE3B6DCA1E61427D00A6D887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3B6DC81E61427D00A6D887 /* LaunchScreen.storyboard */; };
 		EE3B6DD51E61427E00A6D887 /* WATO_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B6DD41E61427E00A6D887 /* WATO_Tests.swift */; };
+		EE7C2BCD1E61BA6E00A51A9B /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C2BCC1E61BA6E00A51A9B /* RegViewController.swift */; };
+		EEABB3951E62975E00AF1B3A /* w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEABB3941E62975E00AF1B3A /* w.jpg */; };
+		EEABB3971E629B5900AF1B3A /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEABB3961E629B5900AF1B3A /* DPViewController.swift */; };
+		EEC273671E618D5B003DB84B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEC273661E618D5B003DB84B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF6CED335652D2B7B99AD58F /* Pods-WATO!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATO!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WATO!/Pods-WATO!.debug.xcconfig"; sourceTree = "<group>"; };
+		E8C71180953875048508A708 /* Pods-WATO!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATO!.release.xcconfig"; path = "Pods/Target Support Files/Pods-WATO!/Pods-WATO!.release.xcconfig"; sourceTree = "<group>"; };
+		EE211A801E61C37D0028E253 /* BuddyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuddyViewController.swift; sourceTree = "<group>"; };
+		EE30CCED1E62537500A8F53B /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		EE30CCEF1E6258CC00A8F53B /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		EE30CCF31E62761500A8F53B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EE30CCF51E6277CD00A8F53B /* pwrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwrViewController.swift; sourceTree = "<group>"; };
 		EE3B6DBC1E61427D00A6D887 /* WATO!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WATO!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3B6DBF1E61427D00A6D887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE3B6DC11E61427D00A6D887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3B6DC11E61427D00A6D887 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EE3B6DC41E61427D00A6D887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE3B6DC61E61427D00A6D887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3B6DC91E61427D00A6D887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +53,11 @@
 		EE3B6DD01E61427E00A6D887 /* WATO!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WATO!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3B6DD41E61427E00A6D887 /* WATO_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WATO_Tests.swift; sourceTree = "<group>"; };
 		EE3B6DD61E61427E00A6D887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7C2BCC1E61BA6E00A51A9B /* RegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		EEABB3941E62975E00AF1B3A /* w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w.jpg; sourceTree = "<group>"; };
+		EEABB3961E629B5900AF1B3A /* DPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
+		EEC273661E618D5B003DB84B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F76728EF64C718F6F3BF8A8E /* Pods_WATO_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WATO_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0E581FD900419BD80DE35B /* Pods_WATO_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +79,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D5FAD5786EE5FE223E428E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6CED335652D2B7B99AD58F /* Pods-WATO!.debug.xcconfig */,
+				E8C71180953875048508A708 /* Pods-WATO!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9813D8290348193B5FA37A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76728EF64C718F6F3BF8A8E /* Pods_WATO_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE3B6DB31E61427D00A6D887 = {
 			isa = PBXGroup;
 			children = (
 				EE3B6DBE1E61427D00A6D887 /* WATO! */,
 				EE3B6DD31E61427E00A6D887 /* WATO!Tests */,
 				EE3B6DBD1E61427D00A6D887 /* Products */,
+				8D5FAD5786EE5FE223E428E5 /* Pods */,
+				9813D8290348193B5FA37A0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +120,20 @@
 			isa = PBXGroup;
 			children = (
 				EE3B6DBF1E61427D00A6D887 /* AppDelegate.swift */,
-				EE3B6DC11E61427D00A6D887 /* ViewController.swift */,
+				EE30CCF51E6277CD00A8F53B /* pwrViewController.swift */,
+				EE30CCF31E62761500A8F53B /* ProfileViewController.swift */,
+				EE30CCEF1E6258CC00A8F53B /* IntroViewController.swift */,
+				EE7C2BCC1E61BA6E00A51A9B /* RegViewController.swift */,
+				EE211A801E61C37D0028E253 /* BuddyViewController.swift */,
+				EEABB3961E629B5900AF1B3A /* DPViewController.swift */,
+				EE3B6DC11E61427D00A6D887 /* LoginViewController.swift */,
+				EE30CCED1E62537500A8F53B /* PlacesViewController.swift */,
 				EE3B6DC31E61427D00A6D887 /* Main.storyboard */,
 				EE3B6DC61E61427D00A6D887 /* Assets.xcassets */,
+				EEABB3941E62975E00AF1B3A /* w.jpg */,
 				EE3B6DC81E61427D00A6D887 /* LaunchScreen.storyboard */,
 				EE3B6DCB1E61427D00A6D887 /* Info.plist */,
+				EEC273661E618D5B003DB84B /* GoogleService-Info.plist */,
 			);
 			path = "WATO!";
 			sourceTree = "<group>";
@@ -103,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE3B6DD91E61427E00A6D887 /* Build configuration list for PBXNativeTarget "WATO!" */;
 			buildPhases = (
+				5A4AC9A9132D59D5C7272AC4 /* [CP] Check Pods Manifest.lock */,
 				EE3B6DB81E61427D00A6D887 /* Sources */,
 				EE3B6DB91E61427D00A6D887 /* Frameworks */,
 				EE3B6DBA1E61427D00A6D887 /* Resources */,
+				781D8800D110E86CF7BBC4E5 /* [CP] Embed Pods Frameworks */,
+				BBFF98800B68F16B0B1164F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,8 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3B6DCA1E61427D00A6D887 /* LaunchScreen.storyboard in Resources */,
+				EEC273671E618D5B003DB84B /* GoogleService-Info.plist in Resources */,
 				EE3B6DC71E61427D00A6D887 /* Assets.xcassets in Resources */,
 				EE3B6DC51E61427D00A6D887 /* Main.storyboard in Resources */,
+				EEABB3951E62975E00AF1B3A /* w.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +250,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A4AC9A9132D59D5C7272AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		781D8800D110E86CF7BBC4E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WATO!/Pods-WATO!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFF98800B68F16B0B1164F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WATO!/Pods-WATO!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE3B6DB81E61427D00A6D887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3B6DC21E61427D00A6D887 /* ViewController.swift in Sources */,
+				EE3B6DC21E61427D00A6D887 /* LoginViewController.swift in Sources */,
+				EE7C2BCD1E61BA6E00A51A9B /* RegViewController.swift in Sources */,
+				EE30CCF61E6277CD00A8F53B /* pwrViewController.swift in Sources */,
+				EE30CCEE1E62537500A8F53B /* PlacesViewController.swift in Sources */,
+				EE30CCF01E6258CC00A8F53B /* IntroViewController.swift in Sources */,
+				EE30CCF41E62761500A8F53B /* ProfileViewController.swift in Sources */,
 				EE3B6DC01E61427D00A6D887 /* AppDelegate.swift in Sources */,
+				EEABB3971E629B5900AF1B3A /* DPViewController.swift in Sources */,
+				EE211A811E61C37D0028E253 /* BuddyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,10 +448,16 @@
 		};
 		EE3B6DDA1E61427E00A6D887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6CED335652D2B7B99AD58F /* Pods-WATO!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WATO!",
+				);
 				INFOPLIST_FILE = "WATO!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kailu.WATO-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -349,10 +466,16 @@
 		};
 		EE3B6DDB1E61427E00A6D887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C71180953875048508A708 /* Pods-WATO!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WATO!",
+				);
 				INFOPLIST_FILE = "WATO!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "Kailu.WATO-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -406,6 +529,7 @@
 				EE3B6DDB1E61427E00A6D887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE3B6DDC1E61427E00A6D887 /* Build configuration list for PBXNativeTarget "WATO!Tests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +538,7 @@
 				EE3B6DDE1E61427E00A6D887 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
